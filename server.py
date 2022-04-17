@@ -4,8 +4,8 @@ import telebot
 import threading
 import time
 address_list = ['0x8aceab8167c80cb8b3de7fa6228b889bb1130ee8','0x76c49d0e2b00ded0611862f0713c624a9bd0a432','0xc333e80ef2dec2805f239e3f1e810612d294f771','0xef22c14f46858d5ac61326497b056974167f2ee1']
-ETHERSCAN_KEY = ''
-BOT_KEY = ''
+ETHERSCAN_KEY = '42T1XZPXVCNZDDW6DW2AAA1TNZ853U91VP'
+BOT_KEY = '5159902342:AAGEdMb2Kh6HHofUgyHYckSw3ZdNxTHhKqo'
 def background(f):
     def backgrnd_func(*a, **kw):
         threading.Thread(target=f, args=a, kwargs=kw).start()
